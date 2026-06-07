@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Curiozități - B.P. Hasdeu</title>
+    <style>
+        /* Stilul general al paginii */
+        body {
+            font-family: sans-serif;
+            margin: 30px;
+            background-color: #ffffff;
+            color: #2b2b2b;
+        }
+
+        /* Titlul principal */
+        h1 {
+            color: #0d2c54;
+            border-left: 5px solid #0d2c54;
+            padding-left: 10px;
+        }
+
+        h2 {
+            color: #0d2c54;
+            margin-top: 0;
+        }
+
+        p, ul {
+            line-height: 1.6;
+        }
+
+        /* CONTAINER TEXT: Pune cele două coloane una lângă alta */
+        .pagini-alaturate {
+            display: flex;
+            gap: 40px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .coloana {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        /* ZONA PENTRU IMAGINI: Le pune una lângă alta */
+        .rand-poze {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        /* MODIFICAT: Lățime maximă mărită, iar înălțimea automată arată TOTUL din poză */
+        .rand-poze img {
+            max-width: 550px;       /* Lățime maximă mai mare ca să fie vizibile detaliile */
+            width: 100%;
+            height: auto;           /* Păstrează proporțiile originale fără să taie deloc din imagine */
+            border: 3px solid #0d2c54;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Curiozități din lumea școlară</h1>
+    <p><em>Întâmplări neobișnuite, controverse și cazuri incredibile care au captat atenția întregii țări.</em></p>
+
+    <div class="pagini-alaturate">
+
+        <div class="coloana">
+            <h2>Scandalul desenului din clasa a XI-a</h2>
+            <p>Unul dintre cele mai bizare și discutate scandaluri din sistemul de învățământ românesc a avut în centru un elev de clasa a XI-a de la un profil umanist și o profesoară de educație plastică (desen).</p>
+            <p>Cazul a șocat opinia publică și a stârnit dezbateri aprinse legate de abuzul de putere și criteriile de notare aplicate la disciplinele vocaționale în cazul profilului uman.</p>
+            <p>Totul a început când profesoara le-a cerut elevilor să realizeze o lucrare grafică. Elevul a realizat un desen pe care cadrul didactic l-a considerat complet nepotrivit și o jignire gravă adusă propriei persoane, interpretându-l ca pe o manifestare de indisciplină extremă.</p>
+        </div>
+
+        <div class="coloana">
+            <h2>Detaliile cazului</h2>
+            <ul>
+                <li><strong>Sancțiunea extremă:</strong> Elevului i s-a scăzut nota la purtare direct la valoarea de <strong>2 (doi)</strong>, o decizie fără precedent pentru un elev fără acte de violență.</li>
+                <li><strong>Risc de repetenție:</strong> O notă atât de mică în clasa a XI-a însemna automat că elevul rămânea repetent și risca exmatricularea, blocându-i-se drumul spre Bacalaureat.</li>
+                <li><strong>Reacția familiei:</strong> Părinții liceanului au contestat imediat sancțiunea, apelând la avocați și instanță pentru a anula măsura abuzivă a profesoarei.</li>
+                <li><strong>Anularea deciziei:</strong> În urma presiunii publice uriașe și a verificărilor făcute de Inspectoratul Școlar, decizia a fost retrasă și nota la purtare a fost restabilită.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <hr style="border: 1px solid #0d2c54; margin-top: 40px;">
+
+    <h2 style="text-align: center; margin-top: 20px;">Persoanele implicate în scandal</h2>
+    <div class="rand-poze">
+        <img src="imagini/profesoara.webp" alt="Profesoara de desen">
+        <img src="imagini/elev.webp" alt="Elevul de clasa a XI-a">
+    </div>
+
+</body>
+</html>

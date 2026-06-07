@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Colegiul Național B.P. Hasdeu</title>
+    
+    <!-- PICTORAMA PENTRU TAB-UL BROWSERULUI -->
+    <link rel="icon" type="image/x-icon" href="https://www.gstatic.com/lamda/images/favicon_v1_150160d13583ee50c6b9.ico">
+    
+    <!-- CSS-ul integrat direct în HTML -->
+    <style>
+        /* Stiluri generale pentru pagină */
+        body {
+            background-color: #f5f7fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            padding: 0;
+            color: #2b2b2b;
+        }
+
+        /* Meniul cu butoane în partea de sus a paginii */
+        nav {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        /* Stilizarea link-urilor sub formă de BUTOANE */
+        nav a {
+            display: inline-block;
+            background-color: #0d2c54;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            border: 2px solid #0d2c54;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #ffffff;
+            color: #0d2c54;
+            border-color: #0d2c54;
+        }
+
+        /* Stilizare pentru Antet */
+        header {
+            background-color: #0d2c54;
+            color: #ffffff;
+            padding: 35px 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin: 10px 0 0 0;
+        }
+
+        /* Stilizare pentru Zona Principală */
+        main {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-top: 15px;
+        }
+
+        main section {
+            margin-bottom: 40px;
+        }
+
+        /* Titlurile de secțiune cu linie verticală în stânga, exact ca în imagini */
+        main h2 {
+            color: #0d2c54;
+            border-left: 5px solid #0d2c54;
+            padding-left: 15px;
+            font-size: 24px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        main h3 {
+            color: #2b2b2b;
+            font-size: 20px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        /* Structura pentru centrarea imaginii din pagină */
+        .zona-imagine {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 25px 0;
+        }
+
+        .foto-proiect {
+            max-width: 100%;
+            width: 550px;
+            height: auto;
+            border: 3px solid #0d2c54;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Stil pentru listele cu buline */
+        main ul {
+            margin-left: 20px;
+            padding-left: 20px;
+        }
+
+        main li {
+            margin-bottom: 8px;
+        }
+
+        /* Stilizare pentru secțiunea Curiozități (zona de jos) */
+        .zona-curiozitati {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-top: 25px;
+            border: 1px solid #dddddd;
+        }
+
+        .zona-curiozitati h2 {
+            color: #0d2c54;
+            border-left: 5px solid #0d2c54;
+            padding-left: 15px;
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        /* Stilizare pentru Subsol */
+        footer {
+            background-color: #0d2c54;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Meniul cu cele 3 butoane care deschid pagini noi complet albe -->
+    <nav>
+        <a href="realizari.html" target="_blank">Realizări</a>
+        <a href="Olimpiade-si-olimpici.html" class="buton-meniu">Olimpiade și olimpici</a>
+        <a href="curiozitati.html" target="_blank">Curiozități</a>
+    </nav>
+
+    <!-- Antetul paginii -->
+    <header>
+        <h1>Colegiul Național „Bogdan Petriceicu Hasdeu”</h1>
+        <p>Tradiție, Excelență și Performanță în educația buzoiană.</p>
+    </header>
+
+    <!-- Zona principală de conținut -->
+    <main>
+        <!-- Secțiunea 1: Realizări -->
+        <section id="realizari">
+            <h2>Realizări</h2>
+            <article>
+                <p>Fondat în a doua jumătate a secolului al XIX-lea, Colegiul Național „Bogdan Petriceicu Hasdeu” din Buzău este una dintre cele mai vechi și prestigioase instituții de învățământ preuniversitar din România. De-a lungul deceniilor, liceul a devenit un adevărat pilon cultural și educațional pentru întreaga regiune.</p>
+                <p>Numele colegiului aduce omagiu marelui enciclopedist, scriitor și filolog Bogdan Petriceicu Hasdeu, insuflând elevilor dorința de cunoaștere academică profundă și spiritul de elită reflectat în rezultatele obținute an de an.</p>
+            </article>
+
+            <article>
+                <h3>Tradiția Inteligenței</h3>
+                <p>Liceul este recunoscut la nivel național pentru rata de promovare de 100% la examenul de Bacalaureat și pentru numărul impresionant de absolvenți care își continuă studiile la universități de top din țară și din străinătate.</p>
+                
+                <!-- Singura imagine din proiect, plasată corect sub Tradiția Inteligenței -->
+                <div class="zona-imagine">
+                    <img src="imagini/liceu" alt="Clădirea istorică a Colegiului Hasdeu" class="foto-proiect" onerror="this.onerror=null; this.src='imagini/liceu.jpg';">
+                </div>
+            </article>
+        </section>
+
+        <!-- Secțiunea 2: Olimpiade și olimpici (FĂRĂ POZĂ REPETATĂ ACUM) -->
+        <section id="olimpiade">
+            <h2>Olimpiade și olimpici</h2>
+            <article>
+                <p>Colegiul oferă o paletă largă de specializări, pregătind elevii atât pentru profilul real, cât și pentru cel umanist, prin următoarele clase:</p>
+                <ul>
+                    <li>Matematică-Informatică (bilingv sau intensiv);</li>
+                    <li>Științe ale Naturii;</li>
+                    <li>Filologie (bilingv engleză/franceză);</li>
+                    <li>Științe Sociale.</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <!-- Secțiunea 3: Curiozități (Caseta de jos) -->
+    <div class="zona-curiozitati" id="curiozitati">
+        <h2>Curiozități</h2>
+        <p>Printre absolvenții de seamă ai Colegiului Hasdeu se numără personalități remarcabile, inclusiv academicieni, cercetători de talie mondială și artiști care au marcat cultura românească.</p>
+        <p>Liceul mizează foarte mult și pe activitățile extrașcolare, având trupe de teatru apreciate, reviste școlare premiate și cluburi active de robotică și dezbateri academice.</p>
+    </div>
+
+    <!-- Subsolul paginii -->
+    <footer>
+        <div>Realizat de Sin Codrut si Maftei Alexandru, clasa a IX-a, 2026</div>
+        <div>Website oficial instituție: <a href="http://www.hasdeu.ro" target="_blank">www.hasdeu.ro</a></div>
+    </footer>
+
+</body>
+</html>
