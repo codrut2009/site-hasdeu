@@ -16,4 +16,4 @@ Acesta este proiectul meu pentru atestat/școală, dedicat istoricului, realiză
 * Fișiere `.css` separate pentru stilizarea fiecărei pagini în parte.
 
 ## 👥 Autori:
-* Realizat de Sin Codruț (și colegul tău).
+* Realizat de Sin Codruț și Maftei Alexandru.
